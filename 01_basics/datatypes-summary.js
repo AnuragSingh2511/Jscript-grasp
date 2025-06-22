@@ -34,3 +34,30 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive->String,boolean,number etc.), Heap (Non-Primitive->Arrays,Objects,Functions)
+
+let myYoutubeName = "anuragcanCode"
+let anotherName = myYoutubeName
+anotherName = "roshancanCode"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "anu@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
