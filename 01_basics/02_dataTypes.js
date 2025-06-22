@@ -1,6 +1,10 @@
 "use strict" // treat all JS code as newer version
 
-// alert(3 + 3) // we are using node js, not browser
+// alert(3 + 3) 
+/* 
+We are using Node.js,not browser
+(browser->inspect->console->alert(3+3)->popup showing 6)
+*/
 
 console.log(3
     + 
