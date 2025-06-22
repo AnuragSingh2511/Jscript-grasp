@@ -40,7 +40,7 @@ const hundreds2 = 1000000
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random()*(max - min + 1)) + min); //In this way....value will lie between 10 and 20 range
+console.log(Math.floor(Math.random()*(max - min + 1)) + min); //In this way....value will lie between 10 and 20 range ...+ 1 to avoid zero
 
 
 
