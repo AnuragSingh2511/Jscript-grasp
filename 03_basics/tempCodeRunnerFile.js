@@ -1,1 +1,0 @@
-const result = addTwoNumbers(3, 5)  

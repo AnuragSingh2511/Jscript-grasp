@@ -11,11 +11,12 @@ const dc_heroes = ["superman", "peacemaker", "batman"]
 
 const all_new_heroes = [...marvel_heroes, ...dc_heroes] //spread -> kaanch ka glass
 
-// console.log(all_new_heroes); //mostly use spread instead of concat
+// console.log(all_new_heroes); //mostly use spread operator instead of concat
 
 const another_array = [1, 2, 3, [ 4, 5, 6], 7,[ 6, 7, [ 4, 5]]]
 
-const real_another_array = another_array.flat(Infinity)
+const real_another_array = another_array.flat(Infinity) //instead of Infinity u can write numbers but infinity let us be free and dont check manually
+
 // console.log(real_another_array);
 
 
