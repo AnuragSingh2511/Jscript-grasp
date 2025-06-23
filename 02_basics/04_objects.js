@@ -50,12 +50,43 @@ const users = [ // -> Array of objects
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedin')); //true..
+// console.log(tinderUser.hasOwnProperty('isLoggedin')); //true..
+
+const course = {
+    coursename : "js in hindi",
+    price : 999,
+    courseInstructor : "anurag"
+}
+
+// course.courseInstructor  //syntax not reable if done many times
+
+const {courseInstructor: instructor} = course //readable syntax
+console.log(instructor);
+
+// React 
+// const navbar = ({company}) => { //this is used in react, but u need to study this in Jscript
+
+// }
+
+// navbar(company = "anurag")
+
+// {   //JSON
+//     "name": "anurag",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[  
+    {},
+    {},
+    {}
+]
+
 
 
