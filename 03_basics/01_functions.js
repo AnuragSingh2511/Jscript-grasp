@@ -64,10 +64,12 @@ function handleObject(anyObject){
 //     price: 199
 // })
 
+
+//Get the second value in an array (1st index)
 const myNewArray = [200, 400, 100, 600]
 
 function returnSecondValue(getArray){
-    return getArray[1] //getArray is generic
+    return getArray[1] //getArray is generic variable
 }
 
 // console.log(returnSecondValue(myNewArray)); // 400
